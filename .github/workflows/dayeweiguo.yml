@@ -1,11 +1,9 @@
 name: dayeweiguo
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
-
-jobs:  # 17830
+    - cron: '46 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +11,12 @@ jobs:  # 17830
       - uses: actions/checkout@v4
       - name: dayeweiguo
         env:
-          sr1797: ${{ secrets.sr1797 }}
+          v47834: ${{ secrets.v47834 }}
         run: |
-          echo $sr1797 | jq -r .fin3 | /bin/bash
-          echo $nnl77154 | jq -r .x5 | /bin/bash
-          echo $y1161 | jq -r .o1313 | /bin/bash
-          echo $x69350 | jq -r .y01 | /bin/bash
-          echo $fc23922 | jq -r .lvbp9099 | /bin/bash
+          echo $v47834 | jq -r .i14597 | /bin/bash
+          echo $c7 | jq -r .m3 | /bin/bash
+          echo $njvjw5 | jq -r .nl71 | /bin/bash
+          echo $hjf36 | jq -r .u93197 | /bin/bash
+          echo $rx6 | jq -r .xup01394 | /bin/bash
+          echo $ic75 | jq -r .ojpok86 | /bin/bash
 
